@@ -1,0 +1,8 @@
+<div *ngIf="ms.messages?.length" class="wrap">
+  <p>messages:</p>
+  <button (click)="ms.clear()">clear</button>
+  <br>
+  <ol>
+    <li *ngFor="let msg of ms.messages">{{msg}}</li>
+  </ol>
+</div>

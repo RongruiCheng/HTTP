@@ -1,0 +1,8 @@
+<div class="wrap">
+  <h3>请求文本文件</h3>
+  <button (click)="download()">download</button>
+  <button (click)="clear()">clear</button>
+  <p *ngIf="contents">
+    Contents---{{contents}}
+  </p>
+</div>

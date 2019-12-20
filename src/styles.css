@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+.wrap{
+    min-height: 200px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.959);
+    margin-bottom: 10px;
+}
